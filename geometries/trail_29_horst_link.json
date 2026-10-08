@@ -1,0 +1,27 @@
+{
+  "name": "Generic 29er trail bike - Horst link, ~140 mm",
+  "description": "Fictional geometry used as an example. Origin at the bottom bracket, x forward, y up, mm. Hard points at top-out (shock fully extended).",
+  "hard_points_mm": {
+    "main_pivot":            [-31.0,   56.0],
+    "horst_pivot":           [-410.0, -20.0],
+    "seatstay_rocker_pivot": [-229.0, 307.0],
+    "rocker_pivot":          [-110.0, 290.0],
+    "shock_frame_mount":     [58.6,   221.6],
+    "shock_rocker_mount":    [-106.0, 352.0],
+    "rear_axle":             [-437.0,  -5.0]
+  },
+  "shock_mm": {
+    "eye_to_eye": 210.0,
+    "stroke": 55.0
+  },
+  "bike": {
+    "wheel_radius": 370.0,
+    "wheelbase": 1230.0,
+    "cog_height": 1150.0
+  },
+  "drivetrain": {
+    "chainring_teeth": 32,
+    "cog_teeth": 21,
+    "chain_pitch": 12.7
+  }
+}
