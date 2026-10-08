@@ -33,11 +33,15 @@ The example is a fictional 29" trail bike with a 210 × 55 mm shock (`geometries
 
 **Velocity analysis.** The leverage ratio is computed exactly, without numerical differentiation. For a unit rocker angular velocity, the velocity loop equation
 
-$$\omega_{cs}\,\mathbf{k}\times\overline{AB} \;=\; \omega_{r}\,\mathbf{k}\times\overline{DC} + \omega_{ss}\,\mathbf{k}\times\overline{CB}$$
+```math
+\omega_{cs}\,\mathbf{k}\times\overline{AB} \;=\; \omega_{r}\,\mathbf{k}\times\overline{DC} + \omega_{ss}\,\mathbf{k}\times\overline{CB}
+```
 
 is a 2 × 2 linear system in the chainstay and seatstay angular velocities. The leverage ratio is then the vertical axle velocity divided by the shock compression rate:
 
-$$LR = \frac{\dot{y}_{axle}}{-\dot{L}_{shock}}$$
+```math
+LR = \frac{\dot{y}_{axle}}{-\dot{L}_{shock}}
+```
 
 **Instant centre.** The instant centre of the seatstay relative to the frame is the intersection of lines *AB* and *DC*.
 
